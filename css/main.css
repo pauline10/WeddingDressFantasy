@@ -1,13 +1,47 @@
 .main {
-	background-color: gray;
-	width: 100%; 
+	display:block;
+
+	width: 100%;
 	height: 500px;
+
+	background-color:orange;
+	background-image:url('images/WDFBanner2.jpg');
+	background-repeat: no-repeat;
+    background-position: center;
+
+}
+.logo {
+	display:block;
+
+	width: 200px;
+	height: 100px;
+
+	background-color:blue;
+	background-image:url('images/WDFLogo.png');
+	background-repeat: no-repeat;
+    background-position: center;
+}
+.search {
+	display:block;
+	float:right;
+
+	width: 200px;
+	height: 100px;
+
+	background-color:green;
+}
+/*.main {
+	width: 100%; 
+	height: 300px;
+	margin-bottom: 200px;
 	}
 
 .header {
-	background-color: pink;
 	width: 100%;
-	height: 60px;
+	height: 40px;
+	padding-left: 10px;
+	z-index: -1;
+	position: relative;
 }
 
 .shop {
@@ -21,6 +55,13 @@
 	background-color: #c02774;
 	width: 100%;
 	height: 40px;
+	opacity: .60;
+}
+  li {
+      display: inline;
+      padding: 0px 80px 0px 30px;
+      margin-left: 30px; 
+      text-decoration: none;	
 }
 .signup {
 	background-color: white;
@@ -29,7 +70,6 @@
 }
 .bubbles {
 	background-color: #c5ccd4;
-	/*display: inline-block;*/
 	height: 500px;
 	width: 100%;
 }
@@ -45,22 +85,9 @@
 	background-color: #fff;
 	padding: 0px 20px 0px 40px 
 }
-/*.vintage {
-	background-color: blue;
-	display: inline-block;
-
-}
-.gothic {
-	background-color: green;
-	display: inline-block;
-}
-.purple {
-	background-color: #775168; 
-	display: inline-block;*/
-}
 .awards {
 	background-color:pink;
 }
 .footer {
 	background-color: #c02774;
-}
+}*/
