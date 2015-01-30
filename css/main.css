@@ -88,6 +88,7 @@ body {
 	font-family:'Baskerville'; 
 	font-size: 20px;
 	line-height: 50px;
+	color: white;
 }
 .navigation {
 	width: 100%;
@@ -146,9 +147,9 @@ li a:hover {
 .join .copy {
 	color: gray;
 	font-family: 'Baskerville';
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 150%;
-	width: 250px;
+	width: 220px;
 }
 
 .join .text {
@@ -161,13 +162,13 @@ li a:hover {
 */
 	float: left;
 	position: relative;
-	top: 50px;
+	top: 30px;
 	margin-left: 80px;
 }
 
 .sign_up input {
 	display: inline;
-	border: 2px solid gray; 
+	border: 1px solid gray; 
 	border-radius: 5px;
 	width: 250px;
 	height: 20px;
@@ -192,7 +193,8 @@ li a:hover {
 	/*float: left;*/
 	display: inline-block;
 	margin: 45px;
-	box-shadow: 10px 10px 7px #888888;
+	/*box-shadow: 12px 12px 9px #b6b6b6;*/
+
 }
 
 .awards {
@@ -305,6 +307,34 @@ float: left;
 	color: white;
 
 }
+
+/*.social_media {
+	width: 15%;
+	color: white;
+	margin: 0 0 0 20px;
+	padding-top: 10px; 
+	font-family: 'Great Vibes', cursive;
+	font-size: 20px;
+	margin-left: 20px;
+	float: left;
+}*/
+
+.social_media ul {
+	display: inline-block;
+	font-family: "Font-Awesome";
+	font-size: 14px;
+	width: 120px;
+	margin-top: 10px;
+	color: white;
+}
+
+.social_media li {
+	display: inline;
+	line-height: 30px;
+
+}
+
+
 .clearfix {
 	clear: both;
 }
